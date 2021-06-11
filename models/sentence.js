@@ -12,6 +12,6 @@ const sentenceSchema = new mongoose.Schema({
     }
 });
 
-//first argument is the singular uppercase name of database collection. Category represents the categories collection
+//first argument is the singular uppercase name of database collection. Sentence represents the sentences collection
 //second argument is the schema which we defined above
 module.exports = mongoose.model('Sentence', sentenceSchema);
