@@ -12,6 +12,6 @@ const letterSchema = new mongoose.Schema({
     }
 });
 
-//first argument is the singular uppercase name of database collection. Category represents the categories collection
+//first argument is the singular uppercase name of database collection. Letter represents the letters collection
 //second argument is the schema which we defined above
 module.exports = mongoose.model('Letter', letterSchema);
